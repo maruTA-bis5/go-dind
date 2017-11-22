@@ -1,4 +1,4 @@
-FROM 1.9-alpine3.6
+FROM golang:1.9-alpine3.6
 
 RUN echo '@community http://nl.alpinelinux.org/alpine/edge/community' >> /etc/apk/repositories
 RUN apk update && apk upgrade
